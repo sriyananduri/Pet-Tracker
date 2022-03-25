@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    
+   
+	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+   
+    <title>Woof | Profile</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Flaticon Font -->
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+ 
+<!-- Navbar Start -->
+<div class="container-fluid p-0">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 px-lg-5">
+                <div class="navbar-nav mr-auto py-0">
+                    <a href="index.html" class="navbar-brand d-none d-sm-block nav-item nav-link">
+                        <h2 class="m-0 display-0"><span class="text-primary">Woof</span></h2>
+                    </a>
+                    <a href="booking.html" class="nav-item nav-link">Booking</a>
+                    <a href="service.html" class="nav-item nav-link">Service</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+            <a href="profilesettings.html" class="btn btn-lg btn-primary px-3 d-none d-lg-block">Profile Settings</a>&nbsp;
+            <a href="booking.html" class="btn btn-lg btn-primary px-3 d-none d-lg-block">Book</a>&nbsp;
+            <a href="index.html" class="btn btn-lg btn-primary px-3 d-none d-lg-block">Logout</a>&nbsp;
+        </div>
+    </nav>
+&nbsp;
+<!-- Navbar End -->
+
+<div class="container">
+    
+        <div class="col-md-10 col-xl-10">
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="account" role="tabpanel">
+
+                    <div class="card top-border-radius">
+                        <div class="card-header">
+                            <div class="card-actions float-right">
+                                <h5 class="card-title mb-0">Pet CareTaker</h5>
+                            </div>
+                            <h5 class="card-title mb-0">Public info</h5>
+                        </div>
+                        <div class="card-body">
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <div class="form-row">
+                                            <div class="form-group col-md-6">
+                                                <p>First Name</p>
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <p>Last Name</p>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                           <p>Email</p>
+                                        </div>
+                                        <div class="form-group">
+                                            <p>Phone Number</p>
+                                         </div>
+                                         <div class="form-group">
+                                            <p>Age</p>
+                                         </div>
+                                         <div class="form-group">
+                                            <p>Years of Experience</p>
+                                         </div>
+                                         <div class="form-group">
+                                            <p>Country</p>
+                                         </div>
+                                         <div class="form-group">
+                                            <p>State</p>
+                                         </div>
+                                         <div class="form-group">
+                                            <p>City</p>
+                                         </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="text-center">
+                                            <img alt="" src="" class="rounded-circle img-responsive mt-2" width="128" height="128">
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-actions float-right">
+                                <h5 class="card-title mb-0">Pet CareTaker</h5>
+                            </div>
+                            <h5 class="card-title mb-0">Private info</h5>
+                        </div>
+                        <div class="card-body">
+                            <form>
+                                <div class="form-group">
+                                    <p>Address</p>
+                                </div>
+                                <div class="form-group">
+                                    <p>Govt ID</p>
+                                </div>
+                                
+                            </form>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="tab-pane fade" id="password" role="tabpanel">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Password</h5>
+                            <form>
+                                <div class="form-group">
+                                    <label for="inputPasswordCurrent">Current password</label>
+                                    <input type="password" class="form-control" id="inputPasswordCurrent">
+                                    <small><a href="#">Forgot your password?</a></small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputPasswordNew">New password</label>
+                                    <input type="password" class="form-control" id="inputPasswordNew">
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputPasswordNew2">Verify password</label>
+                                    <input type="password" class="form-control" id="inputPasswordNew2">
+                                </div>
+                                <button type="submit" class="btn btn-primary">Save changes</button>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    
+
+</div>
+
+
+<script type="text/javascript">
+
+</script>
+</body>
+</html>
